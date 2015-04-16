@@ -1,0 +1,72 @@
+---
+permalink: /404.html
+---
+<html>
+	<head>
+		<title>Error 404</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:300,300italic,400' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<!-- A quick and dirty aproach to CSS! Will probably link to an external file in the future! -->
+		<style type="text/css">
+		* {
+			margin: 0px; 
+		}
+		body {
+			background: #F7E406;
+		}
+		a {
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
+			text-decoration: underline;
+			font-size: 40px;
+			color: #FF8000;
+		}
+		a:hover {
+			text-decoration: underline;
+			color: #CC6600;
+		}
+		a:visited {
+			color: #F32F0C;
+			text-decoration: underline;
+		}
+		p {
+			font-family: 'Roboto', sans-serif;
+			font-size: 40px;
+			text-align: center;
+			top: 50%;
+		}
+		h1 {
+			text-align: center;
+			font-size: 150px;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		.contentWrapper {
+			position: absolute;
+			width: 700px;
+			height: 250px; 
+			left: 50%;
+			right: 50%; 
+			margin-right: -350px;
+			margin-left: -350px;
+		}
+
+		#linkcenter {
+			text-align: center;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="text-center">Error 404</h1>
+			<p>Page Not Found</p>
+			<br>
+			<p>You look lost, friend.</p>
+			<br>
+			<p>You might have followed an old link/typed something incorrectly.</p>
+			<div id="linkcenter">
+				<a HREF="javascript:history.go(0)">Refesh The Page</a>
+			</div>
+		</div>
+	</body>
+</html>
